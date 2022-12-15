@@ -21,7 +21,7 @@ const Navbar = () => {
         </button>
       </div>
       <div>
-        <ul className={isActive ? "md:hidden text-white z-40 bg-black h-screen w-screen absolute inset-0 flex flex-col justify-center items-start font-secondaryFont" : "hidden"}>
+        <ul className={isActive ? "hidden" : "md:hidden text-white z-40 bg-black h-screen w-screen absolute inset-0 flex flex-col justify-center items-start font-secondaryFont" }>
           <li className="pb-2 pl-4">
             <a className="hover:underline-offset-4 hover:decoration-2 hover:underline" href="#">ABOUT</a>
           </li>
